@@ -1,0 +1,288 @@
+
+@import url("https://use.typekit.net/nxx0mkf.css");
+
+/* HTML */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: auto-pro-new, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+    color: #000;
+    text-align: center;
+}
+
+p{
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h3{
+    font-family: quincy-cf,serif;
+    font-style: normal;
+}
+
+
+h5{
+    color: #131107;
+    line-height: 1.4em;
+    margin: 30px 0px;
+}
+
+.links{
+    color: #656747;
+}
+
+/* Title Section */  
+
+#title{
+
+    background-color: #656747;
+    text-align: left;
+}
+
+/* Title Image */
+
+.iphone{
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+/* Slogan 0e170a */
+
+.slogan-text{
+    font-family: quincy-cf,serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.5rem;
+    padding: 0.5em 0 0 0;
+    line-height: 1.5;
+    color: #182412;
+}
+
+
+
+/* Navbar */ 
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+#nav-logo{
+    font-family: quincy-cf,serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #282f1c;
+    font-size: 1.8rem;
+}
+
+.nav-link{
+    font-family: auto-pro-new, sans-serif;
+    font-weight: 400;
+    font-style: light;
+    padding-top: 15px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    left: 100px;
+}
+
+.logo-img{
+    width: 25px;
+}
+/* Download Buttons */
+
+.btn-dark{
+    background-color: #5f6143;
+    border: none;
+    color: #e4e1d1;
+}
+
+.btn-dark:hover{
+    background-color: #182412;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.btn-outline-light{
+    color: #424429;
+    border-color: #484a30;
+}
+
+.btn-outline-light:hover{
+    color: #e4e1d1;
+    border-color: #282f1c;
+    background-color: #182412;
+}
+
+.social-media-buttons{
+    margin: 1%;
+}
+
+/* Features */
+
+#features{
+    margin: 4% 15%;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon{
+    color:#e4e1d1;
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+
+.feature-icon:hover{
+    color:#656747;
+}
+
+.feature-text{
+    font-weight: 900;
+    color: #282f1c;
+    font-size: 1.8rem;
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #e4e1d1;
+    color:#656747;
+}
+
+
+
+.testimonial-image{
+    margin: 20px;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.testimonial-text{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+    background-color: #e4e1d1;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-images{
+    width: 10%;
+    margin: 20px 20px 0 20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+/* Vision */
+
+.vision-container{
+    padding-bottom: 0px;
+}
+
+#vision{
+
+    background-color: #656747;
+    text-align: left;
+}
+
+.iphone2{
+    width: 120%;
+}
+
+.iphone-mobile{
+    display: none;
+    width: 45%;
+    margin: auto;
+}
+
+.plant-trees{
+    margin: 30px;
+}
+
+/* Footer */
+
+#cta{
+    background-color: #e4e1d1;
+    margin: 0px;
+    float: center;
+    padding-top: 20px;
+}
+
+#footer{
+    background-color: #e4e1d1;
+    margin: 0px 0px 0px 0px;
+}
+
+.copyright{
+    padding-top: 10px;
+    margin: 0px;
+    float: auto;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 990px){
+    .iphone {
+        position: static;
+        display: none;
+    }
+    #title {
+        text-align: center;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .iphone2 {
+        display: none;
+    }
+    .iphone-mobile{
+        display: block;
+    }
+
+    .slogan-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1670px){
+    .slogan-text {
+        line-height: 1em;
+    }
+}
+
+@media (min-width:990px) and (max-width:1400px) {
+    .iphone2 {
+        display: none;
+    }
+    .iphone-mobile{
+        display: block;
+        width: 280px;
+        margin-bottom: 15px;
+    }
+}
